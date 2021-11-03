@@ -1,0 +1,157 @@
+﻿html:not(.responsive) {
+	min-width: 1000px; /* viewport */
+}
+
+
+
+/*=============================================
+ * body
+ *=============================================*/
+
+body {
+	color: #000;
+	font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	font-size: 15px;
+	line-height: 30px;
+	letter-spacing: 0;
+	background: #FFF;
+	min-width: inherit;
+	min-height: inherit;
+	max-height: 100%;
+}
+
+
+
+/*=============================================
+ * fonts - DON'T EDIT
+ *=============================================*/
+
+.fnt-mincho {
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "メイリオ", Meiryo, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+.fnt-meiryo {
+	font-family: "メイリオ", Meiryo, "ヒラギノ角ゴシックPro", "ＭＳ ゴシック", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.fnt-gothic {
+	font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+
+
+/*=============================================
+ * .fnt - customs
+ *=============================================*/
+
+.fnt-mincho {
+}
+.fnt-meiryo {
+}
+.fnt-gothic {
+}
+.fnt-garamond {
+}
+
+
+
+/*=============================================
+ * <main>
+ *=============================================*/
+
+main {
+	clear: both;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.wrap {
+	width: 1000px;
+}
+
+
+
+/*=============================================
+ * <header>
+ *=============================================*/
+
+header {
+}
+header h1 {
+}
+header .logo {
+}
+header .tel {
+}
+header nav {
+}
+
+
+
+/*=============================================
+ * key
+ *=============================================*/
+
+#key {
+	background-color: #000;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	min-height: 500px;
+	position: relative;
+}
+#key ul {
+	min-height: inherit;
+}
+#key li {
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	min-height: inherit;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+
+
+/*=============================================
+ * <section>
+ *=============================================*/
+
+section {
+}
+
+
+
+/*=============================================
+ * #socialbuttons
+ *=============================================*/
+
+#socialbuttons {
+}
+
+
+
+/*=============================================
+ * <footer>
+ *=============================================*/
+
+footer {
+	text-align: center;
+}
+footer .logo {
+}
+footer .tel {
+}
+footer nav {
+}
+
+
+
+/*=============================================
+ * copyright
+ *=============================================*/
+
+address {
+}

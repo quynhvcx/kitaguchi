@@ -1,0 +1,104 @@
+			body {
+				margin: 0;
+				padding: 0;
+			}
+
+			#wrapper {
+				margin: auto;
+				font-size: 14px;
+				line-height: 1.428571429;
+				width: 100%;
+				max-width: 1000px;
+			}
+			#wrapper > * {
+				margin: 2em;
+			}
+			#wrapper h2 {
+				margin: 0;
+				padding-bottom: 1em;
+				font-size: 175%;
+				font-weight: bold;
+				text-align: center;
+			}
+
+			table {
+				border: 1px solid #909090;
+				border-spacing: 0;
+				border-collapse: collapse;
+			}
+			th {
+				font-size: 150%;
+				font-weight: bold;
+				text-transform: uppercase;
+			}
+			td {
+				padding: .5em;
+				font-size: 90%;
+			}
+
+			hr {
+				display: block;
+				margin: auto;
+				border: none;
+				border-bottom: 1px dashed #909090;
+			}
+
+			.view-in-browser {
+				color: #303030;
+				font-size: 75%;
+				text-align: right;
+			}
+			.view-in-browser a {
+				color: #303030;
+			}
+
+			#header {
+				padding-bottom: 2em;
+				text-align: center;
+				border-bottom: 1px dotted #303030;
+			}
+
+			#body {
+				font-size: 100%;
+			}
+			#body .name {
+				font-size: 100%;
+				font-weight: bold;
+				text-align: right;
+				width: 30%;
+			}
+			#body .value {
+				width: 70%;
+			}
+
+			#footer {
+				padding-top: 2em;
+				text-align: center;
+				border-top: 1px dotted #303030;
+			}
+
+			#referer {
+				padding: 1em;
+				color: #454545;
+				background: #F9F9F9;
+				border: 1px solid #DADADA;
+			}
+			#referer > * {
+				margin: 0;
+			}
+			#referer > * + * {
+				margin-top: .5em;
+			}
+			#referer a {
+				color: #454545;
+			}
+			#referer b,
+			#referer strong {
+				color: #404040;
+			}
+
+			.logs {
+				padding: 1em;
+				font-size: 10px;
+				text-align: center;
+			}

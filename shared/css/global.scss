@@ -1,0 +1,140 @@
+/* Scss Document */
+@charset "UTF-8";
+
+$width-wrap: 1000px;
+$width-sp: 767px;
+$width-sp-xm: 480px;
+
+$green: #77a475;
+
+@mixin pos_tl($top,$left){
+	top:$top;
+	left:$left;
+	position: absolute;
+}
+
+@mixin pos_bl($bottom,$left){
+	bottom:$bottom;
+	left:$left;
+	position: absolute;
+}
+@mixin pos_tr($top,$right){
+	top:$top;
+	right:$right;
+	position: absolute;
+}
+@mixin pos_br($bottom,$right){
+	bottom:$bottom;
+	right:$right;
+	position: absolute;
+}
+@mixin bo_ra($w){
+	border-radius: $w;
+	-moz-border-radius: $w;
+	-webkit-border-radius: $w;
+}
+@mixin shadow($w){
+	box-shadow: $w;
+	-moz-box-shadow: $w;
+	-webkit-box-shadow: $w;
+}
+@mixin flex($j,$a){
+	display: -webkit-flex; /* Safari */
+  display: flex;
+  justify-content: $j;
+  align-items: $a;
+}
+@mixin flex_num($num){
+	-webkit-flex: $num;  /* Safari 6.1+ */
+	-ms-flex: $num;  /* IE 10 */
+	flex: $num;
+}
+@mixin flex_column($num){
+	-webkit-column-count: $num;
+	-moz-column-count: $num;
+	column-count: $num;
+}
+@mixin break_inside(){
+	-webkit-column-break-inside: avoid;
+	page-break-inside: avoid;
+	break-inside: avoid;
+}
+
+
+@mixin centerX{
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+@mixin centerY{
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+@mixin center() {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@mixin ab($t:0,$r:0,$b:0,$l:0){
+	position: absolute;
+	@if($t != n){ top: $t; }
+	@if($r != n){ right: $r; }
+	@if($b != n){ bottom: $b; }
+	@if($l != n){ left: $l; }
+}
+
+@mixin circle($size) {
+	@include size($size);
+	border-radius: 50%;
+}
+
+@mixin size($w, $h:$w) {
+	width: #{$w};
+	height: #{$h};
+}
+
+@function calc_vw($size, $winW:750){
+	@return ($size/$winW)*100;
+}
+
+@mixin clearfix(){
+	zoom: 1;
+	&:after{
+		content: ".";
+		clear: both;
+		display: block;
+		height: 0;
+		visibility: hidden;
+	}
+}
+
+@mixin forIE(){
+	@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+		@content;
+	}
+	@supports (-ms-accelerator:true) {
+		@content;
+	}
+}
+
+@mixin hover_a($opacity: 0.5){
+	transition: opacity 0.3s ease 0s;
+	&:hover{
+		text-decoration: none;
+		opacity: $opacity;
+	}
+}
+
+@mixin pc($w:768) {
+	@media screen and (min-width: $w + px) {
+		@content;
+	}
+}
+
+@mixin sp($w:$width-sp) {
+	@media screen and (max-width: $w) {
+		@content;
+	}
+}

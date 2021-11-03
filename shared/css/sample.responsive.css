@@ -1,0 +1,15 @@
+#lead {
+}
+
+/*=============================================
+ * RESPONSIVE
+ *=============================================*/
+
+@media only screen and (max-width: 1080px) { /* Tablet */
+}
+
+@media only screen and (max-width: 768px) { /* Mobile - Large */
+}
+
+@media only screen and (max-width: 640px) { /* Mobile - Small */
+}

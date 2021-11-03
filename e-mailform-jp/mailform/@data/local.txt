@@ -1,0 +1,17 @@
+[IP/DOMAIN]
+
+localhost
+127.0.0.1
+192.168.0.2
+192.168.0.42
+http://fcv.f-webdesign.biz/
+fcvndev
+
+
+-----------------------------
+
+
+
+[EMAIL]
+
+fcv.lanthaont@gmail.com

@@ -1,0 +1,1115 @@
+#key {
+    position: relative;
+    background: url('../img/menu/key_deco.jpg') no-repeat center / 200% 100%;
+}
+
+#header h1 {
+    color: #000;
+}
+
+#key .wrap {
+    padding-top: 30vw;
+    padding-bottom: 10vw;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#key h2 {
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vw;
+}
+
+#key .slider2 {
+    text-align: center;
+}
+
+#key .slider2 .slick-slide img {
+    display: inline-block;
+}
+
+#key .slider2 .slick-slide {
+    /* padding: 0 10px; */
+}
+
+.title {
+    font-size: 6vw;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+}
+
+.title span {
+    font-size: 4.5vw;
+}
+
+.red {
+    color: #cb2b11;
+}
+
+.slick-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    justify-content: center;
+}
+
+.slick-dots li {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    border: none;
+}
+
+.slick-dots li button {
+    width: 20px;
+    height: 20px;
+    line-height: 0;
+    font-size: 0;
+    background: transparent;
+    border-radius: 50%;
+    border: 5px solid #bbb9b7;
+}
+
+.slick-dots li.slick-active button {
+    border: 5px solid #333333;
+    background: transparent;
+}
+
+#sec1 {
+    padding-top: 15vw;
+    padding-bottom: 15vw;
+    position: relative;
+}
+
+#sec1:before {
+    position: absolute;
+    content: "";
+    background: url("../img/menu/s1_deco.png") no-repeat center top;
+    background-size: 170%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#sec1>* {
+    position: relative;
+    z-index: 1;
+}
+
+#sec1 h2 {
+    text-align: center;
+    margin-bottom: 5vw;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sec1 .photo {
+    margin-bottom: 10vw;
+}
+
+#sec1 .photo2 {
+    margin-top: 10vw;
+}
+
+#sec2 {
+    background: url("../img/menu/s2_deco_1.png") no-repeat center top, url("../img/menu/s2_bg2.png") no-repeat center bottom;
+    background-size: 180%, 580%;
+    padding-bottom: 5vw;
+}
+
+#sec2 h2 {
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sec2 .group-photo {
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15vw;
+    background: url("../img/menu/s2_img_deco.png") no-repeat center top;
+    background-size: cover;
+    padding: 5vw;
+}
+
+#sec2 .group-photo .photo {
+    text-align: center;
+}
+
+#sec2 .group-photo h3 {
+    position: absolute;
+    top: 50vw;
+    left: -5vw;
+    width: 45%;
+}
+
+#sec2 .txt {
+    margin-bottom: 5vw;
+}
+
+#sec2 .note {
+    text-align: center;
+}
+
+#sec3 {
+    padding-top: 15vw;
+    background: url("../img/menu/s3_bg.jpg") repeat center top;
+    position: relative;
+}
+
+#sec3:before {
+    position: absolute;
+    content: "";
+    background: url("../img/menu/s3_deco_2.png") no-repeat center 96vw/ 196% auto, url("../img/menu/s3_deco.png") no-repeat center top/ 110% auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#sec3>* {
+    position: relative;
+    z-index: 1;
+}
+
+#sec3 h2 {
+    margin-bottom: 10vw;
+}
+
+#sec3 .set2 {
+    position: relative;
+    min-height: 0;
+    padding-top: 15vw;
+    padding-bottom: 15vw;
+    text-align: right;
+}
+
+#sec3 .set2 h3 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.sc-0054 {
+    padding-bottom: 15vw;
+}
+
+.sc-0054 .group {
+    margin-bottom: 10vw;
+}
+
+.sc-0054 .group .text {
+    padding-top: 10vw;
+}
+
+.sc-0054 .group .text .title {
+    margin-bottom: 5vw;
+}
+
+.sc-0054 .group2 {
+    position: relative;
+}
+
+.sc-0054 .group2 h3 {
+    position: absolute;
+    top: -12vw;
+    right: -3vw;
+    width: 18vw;
+}
+
+#sec4 {
+    background: url("../img/menu/s4_deco_1.png") no-repeat center top;
+    background-size: 110%;
+    padding-top: 25vw;
+    padding-bottom: 15vw;
+    position: relative;
+}
+
+#sec4:before {
+    position: absolute;
+    content: "";
+    background: url("../img/menu/s4_deco_3.png") no-repeat right bottom;
+    background-size: 100%;
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+}
+
+#sec4>* {
+    position: relative;
+    z-index: 1;
+}
+
+#sec4 h2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vw;
+    width: 50%;
+}
+
+.sc-0019 .row {
+    margin-bottom: 10vw;
+}
+
+.sc-0019 .row .group-photo {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    float: none;
+}
+
+.sc-0019 .row .group-photo li {
+    margin-bottom: 2vw;
+    width: 49%;
+}
+
+.sc-0019 .row .text {
+    padding-top: 10vw;
+    float: none;
+}
+
+.sc-0019 .row .text h3 {
+    margin-bottom: 5vw;
+    width: 46%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sc-0019 .row2 .text {
+    padding-top: 10vw;
+}
+
+.sc-0019 .row2 .text h3 {
+    margin-bottom: 5vw;
+    width: 46%;
+}
+
+#sec5 {
+    position: relative;
+    padding-bottom: 15vw;
+    background: url("../img/menu/s5_deco_6.png") no-repeat center bottom;
+    background-size: 100%;
+}
+
+#sec5>* {
+    position: relative;
+    z-index: 1;
+}
+
+#sec5 .set1 {
+    padding-top: 15vw;
+    position: relative;
+}
+
+#sec5 .set1:before {
+    position: absolute;
+    content: "";
+    background: url("../img/menu/s5_deco_1.png") no-repeat right top;
+    background-size: 100%;
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+}
+
+#sec5 .set1>* {
+    position: relative;
+    z-index: 1;
+}
+
+#sec5 .set1 h2 {
+    text-align: center;
+    margin-bottom: 5vw;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sec5 .set1 .deco {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vw;
+}
+
+#sec5 .set1 .note {
+    text-align: center;
+    margin-bottom: 5vw;
+}
+
+#sec5 .set1 .row {
+    margin-bottom: 15vw;
+}
+
+#sec5 .set1 .row .slider3 {
+    width: 100%;
+}
+
+#sec5 .set1 .row .slider3 .slick-dots {
+    bottom: -10vw;
+}
+
+#sec5 .set1 .row .text {
+    padding-top: 20vw;
+    position: relative;
+    z-index: 1;
+}
+
+#sec5 .set1 .row .text h3 {
+    margin-bottom: 5vw;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sec5 .set1 .row .text .title {
+    margin-bottom: 5vw;
+    text-align: center;
+}
+
+#sec5 .set1 .row2 .photo {
+    margin-bottom: 10vw;
+}
+
+#sec5 .set1 .row2 .title {
+    margin-bottom: 5vw;
+    text-align: center;
+    float: none;
+}
+
+#sec5 .set1 .row2 .txt {
+    float: none;
+}
+
+#sec5 .set2 {
+    padding-top: 15vw;
+}
+
+#sec5 .set2 .row {
+    max-width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15vw;
+}
+
+#sec5 .set2 .row .item {
+    margin-bottom: 5vw;
+}
+
+#sec5 .set2 .row .item .photo {
+    width: 50%;
+}
+
+#sec5 .set2 .row .item .title {
+    margin-top: 8vw;
+    margin-left: -5vw;
+}
+
+#sec5 .set2 .row .item:last-child {
+    margin-bottom: 0;
+}
+
+#sec5 .set2 .row2 {
+    padding-bottom: 5vw;
+}
+
+#sec5 .set2 .row2 .photo {
+    margin-bottom: 5vw;
+}
+
+#sec5 .set2 .row2 .text {
+    padding-top: 5vw;
+}
+
+#sec5 .set2 .row2 .text h3 {
+    margin-bottom: 5vw;
+    width: 70%;
+}
+
+#sec5 .set2 .row3 {
+    position: relative;
+}
+
+#sec5 .set2 .row3 .text .title {
+    margin-bottom: 5vw;
+    text-align: center;
+}
+
+#sec5 .set2 .row3 .photo {
+    margin-bottom: 5vw;
+}
+
+#sec6 {
+    padding-top: 15vw;
+    padding-bottom: 25vw;
+    position: relative;
+    z-index: 1;
+}
+
+#sec6:before {
+    position: absolute;
+    content: "";
+    background: url("../img/menu/s6_deco_2.png") no-repeat right bottom;
+    background-size: 160%;
+    top: 0;
+    left: 0;
+    right: -20%;
+    bottom: 0;
+}
+
+#sec6>* {
+    position: relative;
+    z-index: 1;
+}
+
+#sec6 .text h2 {
+    margin-bottom: 10vw;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sec6 .group-photo {
+    margin-top: 15vw;
+    width: 70%;
+    position: relative;
+}
+
+#sec6 .group-photo:before {
+    position: absolute;
+    content: "";
+    background: url("../img/menu/s6_deco_1.png") no-repeat center top;
+    background-size: 130%;
+    top: -24vw;
+    left: 0;
+    right: -100%;
+    bottom: 0;
+}
+
+#sec6 .group-photo>* {
+    position: relative;
+    z-index: 1;
+}
+
+#sec6 .group-photo .photo2 {
+    position: absolute;
+    top: 8vw;
+    right: -40%;
+    width: 72%;
+}
+
+#sec7 {
+    background: url("../img/menu/s7_bg.jpg") repeat center top;
+    padding-top: 15vw;
+}
+
+#sec7 h2 {
+    text-align: center;
+    margin-bottom: 5vw;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sec7 .note {
+    text-align: center;
+    margin-bottom: 5vw;
+}
+
+#sec8 {
+    background: url("../img/menu/s7_bg.jpg") repeat center top;
+    padding-top: 15vw;
+    padding-bottom: 15vw;
+}
+
+#sec8 h2 {
+    text-align: center;
+    margin-bottom: 8vw;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-price .item .toggle {
+    margin-bottom: 10vw;
+}
+
+.menu-price .item .toggle .toggle-link {
+    background: #333333;
+    font-size: 18px;
+    line-height: 52px;
+    letter-spacing: 0.1em;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    margin-bottom: -3px;
+}
+
+.menu-price .item h5 {
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.menu-price .item dl {
+    display: table;
+    width: 100%;
+    border-top: 1px solid rgba(51, 51, 51, 0.2);
+    line-height: 18px;
+    padding: 10px 0 7px 0;
+}
+
+.menu-price .item dl dt {
+    display: table-cell;
+    padding-left: 12px;
+}
+
+.menu-price .item dl dd {
+    display: table-cell;
+    text-align: right;
+    padding-right: 8px;
+}
+
+.menu-price .item dl:last-child {
+    border-bottom: 1px solid #333333;
+}
+
+.menu-price .item .list {
+    margin-bottom: -2px;
+}
+
+.menu-price .item .list:last-child {
+    margin-bottom: 0;
+}
+
+.menu-price .item:last-child .toggle:last-child {
+    margin-bottom: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .toggle .toggle-link:after {
+        display: none;
+    }
+    #key {
+        /* padding-top: 118px; */
+        /* padding-bottom: 458px; */
+        background: url('../img/menu/key_deco.jpg') no-repeat top center, url('../img/menu/s7_bg.jpg');
+        height: 950px;
+    }
+    #key .wrap {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    #key h2 {
+        width: auto;
+        margin-bottom: 0;
+        padding-top: 118px;
+    }
+    #key ul li {
+        position: absolute;
+    }
+    #key ul .photo1 {
+        top: 126px;
+        left: calc(50% - 455px);
+    }
+    #key ul .photo2 {
+        top: 55px;
+        left: calc(50% + 134px);
+    }
+    #key ul .photo3 {
+        top: 464px;
+        left: calc(50% - 578px);
+    }
+    #key ul .photo4 {
+        top: 495px;
+        left: calc(50% - 300px);
+    }
+    #key ul .photo5 {
+        top: 379px;
+        left: calc(50% - 36px);
+    }
+    #key ul .photo6 {
+        top: 477px;
+        left: calc(50% + 236px);
+    }
+    .title {
+        font-size: 25px;
+        line-height: 34px;
+        letter-spacing: 0.1em;
+    }
+    .title span {
+        font-size: 20px;
+    }
+    .slick-dots {
+        justify-content: flex-start;
+    }
+    #sec1 {
+        padding-top: 120px;
+        padding-bottom: 139px;
+    }
+    #sec1:before {
+        background: url("../img/menu/s1_deco.png") no-repeat center top;
+        background-size: auto;
+        bottom: -178px;
+    }
+    #sec1 .photo {
+        position: absolute;
+        background: url("../img/menu/s1_img_2.jpg") no-repeat center center;
+        background-size: cover;
+        top: 128px;
+        right: 0;
+        left: calc(50% + 270px);
+        height: 450px;
+        margin-bottom: 0;
+        width: auto;
+    }
+    #sec1 .photo2 {
+        position: absolute;
+        background: url("../img/menu/s1_img_1.jpg") no-repeat center right;
+        background-size: cover;
+        top: 298px;
+        right: calc(50% + 301px);
+        left: 0;
+        height: 410px;
+        margin-top: 0;
+        width: auto;
+    }
+    #sec1 h2 {
+        margin-bottom: 40px;
+        width: auto;
+    }
+    #sec1 .txt {
+        text-align: center;
+    }
+    #sec2 {
+        background: url("../img/menu/s2_deco_1.png") no-repeat center top 3px, url("../img/menu/s2_bg2.png") no-repeat center bottom;
+        background-size: auto;
+        padding-bottom: 18px;
+    }
+    #sec2 h2 {
+        width: auto;
+    }
+    #sec2 .group-photo {
+        width: 655px;
+        margin-bottom: 30px;
+        background: url("../img/menu/s2_img_deco.png") no-repeat center top;
+        background-size: auto;
+        padding: 28px 27px 27px 28px;
+    }
+    #sec2 .group-photo h3 {
+        top: 414px;
+        left: -23px;
+        width: auto;
+    }
+    #sec2 .txt {
+        width: 535px;
+        margin-left: calc(50% - 97px);
+        margin-bottom: 38px;
+    }
+    #sec3 {
+        padding-top: 18px;
+    }
+    #sec3:before {
+        background: url("../img/menu/s3_deco_2.png") no-repeat center top, url("../img/menu/s3_deco.png") no-repeat center top;
+        background-size: auto;
+    }
+    #sec3 h2 {
+        margin-left: 84px;
+        margin-bottom: 57px;
+    }
+    #sec3 .set2 {
+        padding-top: 164px;
+        padding-bottom: 160px;
+    }
+    #sec3 .set2 h3 {
+        width: auto;
+    }
+    .sc-0054 {
+        padding-bottom: 80px;
+    }
+    .sc-0054 .group {
+        margin-bottom: 100px;
+    }
+    .sc-0054 .group .photo {
+        margin-left: -50px;
+    }
+    .sc-0054 .group .text {
+        width: 301px;
+        margin-right: 8px;
+        padding-top: 55px;
+    }
+    .sc-0054 .group .text .title {
+        margin-bottom: 9px;
+    }
+    .sc-0054 .group2 {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sc-0054 .group2 h3 {
+        position: absolute;
+        top: -90px;
+        right: -50px;
+        width: auto;
+    }
+    #sec4 {
+        background: url("../img/menu/s4_deco_1.png") no-repeat center top;
+        background-size: auto;
+        padding-top: 120px;
+        padding-bottom: 60px;
+    }
+    #sec4:before {
+        background: url("../img/menu/s4_deco_3.png") no-repeat right bottom;
+        background-size: auto;
+        left: 0;
+        right: calc(50% - 750px);
+    }
+    #sec4:after {
+        position: absolute;
+        content: "";
+        background: url("../img/menu/s4_deco_2.png") no-repeat top left;
+        top: 432px;
+        left: calc(50% - 828px);
+        right: 0;
+        bottom: 0;
+    }
+    #sec4 h2 {
+        margin-left: 120px;
+        margin-bottom: 57px;
+        width: auto;
+    }
+    .sc-0019 .row {
+        margin-bottom: 50px;
+    }
+    .sc-0019 .row .group-photo {
+        margin-right: -99px;
+        width: 700px;
+        float: right;
+    }
+    .sc-0019 .row .group-photo li {
+        margin-bottom: 10px;
+        width: auto;
+    }
+    .sc-0019 .row .text {
+        width: 340px;
+        padding-top: 68px;
+        margin-left: 54px;
+        float: left;
+    }
+    .sc-0019 .row .text h3 {
+        margin-bottom: 25px;
+        width: auto;
+        margin-left: 0;
+    }
+    .sc-0019 .row2 .photo {
+        margin-left: -151px;
+    }
+    .sc-0019 .row2 .text {
+        width: 365px;
+        padding-top: 59px;
+    }
+    .sc-0019 .row2 .text h3 {
+        margin-bottom: 35px;
+        width: auto;
+    }
+    .sc-0019 .row2 .text .txt {
+        margin-left: 5px;
+    }
+    #sec5 {
+        padding-bottom: 110px;
+        background: url("../img/menu/s5_deco_6.png") no-repeat center bottom;
+        background-size: auto;
+    }
+    #sec5:before {
+        position: absolute;
+        content: "";
+        background: url("../img/menu/s5_deco_3.png") no-repeat left top;
+        top: 443px;
+        left: calc(50% - 880px);
+        right: 0;
+        bottom: 0;
+    }
+    #sec5 .set1 {
+        padding-top: 92px;
+    }
+    #sec5 .set1:before {
+        background: url("../img/menu/s5_deco_1.png") no-repeat right top;
+        background-size: auto;
+        left: 0;
+        right: calc(50% - 750px);
+    }
+    #sec5 .set1:after {
+        position: absolute;
+        content: "";
+        background: url("../img/menu/s5_deco_2.png") no-repeat center top;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    #sec5 .set1 h2 {
+        margin-bottom: 29px;
+        width: auto;
+    }
+    #sec5 .set1 .note {
+        margin-bottom: 53px;
+    }
+    #sec5 .set1 .row {
+        margin-bottom: 38px;
+    }
+    #sec5 .set1 .row .slider3 {
+        width: 720px;
+        margin-right: -119px;
+    }
+    #sec5 .set1 .row .slider3 .slick-dots {
+        left: -360px;
+        bottom: 62px;
+    }
+    #sec5 .set1 .row .text {
+        padding-top: 60px;
+        width: 380px;
+        margin-left: 54px;
+        margin-right: -35px;
+    }
+    #sec5 .set1 .row .text h3 {
+        margin-bottom: 25px;
+        width: auto;
+    }
+    #sec5 .set1 .row .text .title {
+        margin-bottom: 11px;
+        text-align: left;
+    }
+    #sec5 .set1 .row2 {
+        position: relative;
+        padding-top: 89px;
+        min-height: 310px;
+    }
+    #sec5 .set1 .row2 .photo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    #sec5 .set1 .row2 .title {
+        margin-top: 8px;
+        margin-left: 55px;
+        position: relative;
+        z-index: 1;
+        margin-bottom: 0;
+        text-align: left;
+        float: left;
+    }
+    #sec5 .set1 .row2 .txt {
+        width: 258px;
+        margin-right: 6px;
+        position: relative;
+        z-index: 1;
+        float: right;
+    }
+    #sec5 .set2 {
+        background: url("../img/menu/s5_deco_5.png") no-repeat center top;
+        padding-top: 50px;
+    }
+    #sec5 .set2 .row {
+        max-width: 1052px;
+        margin-bottom: 20px;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        justify-content: space-between;
+    }
+    #sec5 .set2 .row .item {
+        width: 526px;
+        margin-bottom: 0;
+    }
+    #sec5 .set2 .row .item .photo {
+        width: auto;
+    }
+    #sec5 .set2 .row .item .title {
+        margin-top: 87px;
+        margin-left: -20px;
+    }
+    #sec5 .set2 .row2 {
+        padding-bottom: 0;
+    }
+    #sec5 .set2 .row2 .photo {
+        margin-right: -36px;
+        margin-bottom: 0;
+    }
+    #sec5 .set2 .row2 .text {
+        padding-top: 90px;
+        margin-left: 54px;
+        margin-right: -121px;
+        width: 390px;
+        position: relative;
+        z-index: 1;
+    }
+    #sec5 .set2 .row2 .text h3 {
+        margin-bottom: 30px;
+        width: auto;
+    }
+    #sec5 .set2 .row3 .text {
+        padding-top: 85px;
+        width: 300px;
+        margin-left: 54px;
+    }
+    #sec5 .set2 .row3 .text .title {
+        margin-bottom: 10px;
+        text-align: left;
+    }
+    #sec5 .set2 .row3 .photo {
+        position: absolute;
+        top: -50px;
+        right: calc(50% - 684px);
+        margin-bottom: 0;
+    }
+    #sec6 {
+        padding-top: 76px;
+        padding-bottom: 89px;
+        background: url("../img/shared/bg.jpg") no-repeat center top;
+    }
+    #sec6:before {
+        background: url("../img/menu/s6_deco_1.png") no-repeat center top, url("../img/menu/s6_deco_2.png") no-repeat center bottom;
+        background-size: auto;
+        right: 0;
+    }
+    #sec6 .text {
+        width: 350px;
+        position: relative;
+        z-index: 2;
+    }
+    #sec6 .text h2 {
+        margin-bottom: 32px;
+        width: auto;
+    }
+    #sec6 .text .txt {
+        width: 303px;
+        margin-left: 28px;
+    }
+    #sec6 .group-photo {
+        width: 650px;
+        margin-left: -152px;
+        margin-top: 136px;
+    }
+    #sec6 .group-photo:before {
+        background: none;
+        background-size: 0;
+        top: 0;
+        right: 100%;
+    }
+    #sec6 .group-photo .photo2 {
+        top: 67px;
+        right: -258px;
+        width: auto;
+    }
+    #sec7 {
+        padding-top: 83px;
+    }
+    #sec7 h2 {
+        margin-bottom: 29px;
+        width: auto;
+    }
+    #sec7 .note {
+        margin-bottom: 40px;
+    }
+    #sec8 {
+        padding-top: 64px;
+        padding-bottom: 101px;
+    }
+    #sec8 h2 {
+        margin-bottom: 50px;
+        width: auto;
+    }
+    .menu-price {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu-price .item {
+        width: 320px;
+    }
+    .menu-price .item .toggle {
+        margin-bottom: 30px;
+    }
+    .menu-price .item .toggle .toggle-link {
+        pointer-events: none;
+    }
+    .menu-price .item .toggle .toggle-main {
+        display: block;
+    }
+    .menu-price .item .toggle:last-child {
+        margin-bottom: 0;
+    }
+    .slick-dots li {
+        width: 25px;
+        height: 25px;
+    }
+    .slick-dots li button {
+        width: 25px;
+        height: 25px;
+        border: 7px solid #bbb9b7;
+    }
+    .slick-dots li.slick-active button {
+        border: 7px solid #333333;
+    }
+}
+
+@media only screen and (min-width: 1760px) {
+    #sec5:before {
+        left: 0;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    #sec4:before {
+        right: 0;
+    }
+    #sec5 .set1:before {
+        right: 0;
+    }
+}
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    .menu-price .item .toggle .toggle-link {
+        line-height: 56px;
+    }
+    .menu-price .item h5 {
+        margin-top: 12px;
+        margin-bottom: 2px;
+    }
+    .menu-price .item dl {
+        padding-top: 12px;
+    }
+}
